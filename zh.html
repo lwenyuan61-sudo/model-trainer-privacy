@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>《模型训练家》隐私说明</title>
+<style>
+:root { --bg: #ffffff; --fg: #1d1f23; --muted: #5d6470; --line: #e3e5e8; --link: #2a5db0; }
+@media (prefers-color-scheme: dark) { :root { --bg: #121417; --fg: #e8eaed; --muted: #9aa1ab; --line: #2a2e34; --link: #8ab4f8; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.75 -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 26px; line-height: 1.3; margin: 0 0 4px; }
+h2 { font-size: 19px; line-height: 1.35; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+p { margin: 0 0 12px; }
+.meta { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+.lang { float: right; font-size: 14px; margin-top: 4px; }
+a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+<a class="lang" href="index.html" lang="en" hreflang="en">English</a>
+<h1>《模型训练家》隐私说明</h1>
+<p class="meta">更新日期：2026 年 11 月 18 日</p>
+
+<p>《模型训练家》由 Wenyuan Li（下称“我们”）开发和发行。本说明介绍游戏使用哪些信息、为什么使用，以及你可以做出的选择。联系方式：<a href="mailto:lwenyuan61@gmail.com">lwenyuan61@gmail.com</a></p>
+
+<h2>游戏发送和保存的信息</h2>
+<p><b>你的 Steam 账号。</b>游戏使用自带的 API 时，会请 Steam 确认你的身份，以及你的账号是否拥有这款游戏，Steam 会返回你的 Steam 账号编号和确认结果。我们用它们确认你拥有游戏、记录你的游戏自带 API 额度，并执行每天和每分钟的次数上限。</p>
+<p><b>你打给她的字。</b>她的回话由大语言模型生成。你发出一句话时，游戏会把这句话、最近的对话和生成回话所需的游戏信息发到我们的中转服务器，由中转服务器转给人工智能服务商，再把回话传回游戏。大多数玩家使用的服务商是 DeepInfra，中国大陆的玩家一般使用 DeepSeek。中国大陆以外的玩家的话，不会发给位于中国的服务商。我们的中转服务器不保存你的话和她的回话的内容。</p>
+<p><b>用量和额度记录。</b>我们的中转服务器按 Steam 账号记录每天生成了多少句回话，以及游戏自带 API 的额度用了多少、买了多少。</p>
+<p><b>技术信息。</b>你的 IP 地址只在内存中短暂使用，用来防止滥用，一分钟内删除，不会保存。根据 IP 地址或 Steam 判断出的大致国家或地区，只用于为每一句话选择服务商，不会保存。服务器日志记录每次请求的时间、Steam 账号编号的最后六位、响应时间、处理的文字量和花费，不包含你的话的内容。</p>
+<p><b>保存在你电脑上的信息。</b>你的游戏存档、设置和对话记录都保存在你的电脑上。如果你选择使用自己的 API 密钥，密钥只保存在你的电脑上，并用 Windows 自带的加密保护；你的话会从你的电脑直接发给你选择的服务商（DeepSeek、智谱 BigModel、Z.ai、OpenRouter 或 Nebius Token Factory），适用该服务商的条款。我们收不到这个密钥，也收不到这些话。</p>
+<p><b>付款。</b>购买由 Steam 处理，我们收不到你的付款信息。</p>
+
+<h2>我们不做的事</h2>
+<p>我们不出售你的个人信息，不展示广告，也不用你的话训练人工智能模型。</p>
+
+<h2>人工智能服务商和数据处理地点</h2>
+<p>通过游戏自带的 API 发出的话，由人工智能服务商按其自己的条款和隐私政策处理：DeepInfra（deepinfra.com）或 DeepSeek（deepseek.com）。因此，你的信息可能在你所在国家或地区以外处理，包括美国，以及（对中国大陆的玩家）中国。我们的中转服务器运行在租用的云服务器上。</p>
+<p>请不要在对话中透露敏感的个人信息，例如密码、财务信息或健康信息。</p>
+
+<h2>信息保存多久</h2>
+<p>用量和额度记录在游戏自带的 API 服务运行期间一直保存，以免你剩余的额度丢失。服务器日志最多保存 30 天。</p>
+
+<h2>你的选择和权利</h2>
+<p>你可以在游戏设置中改用自己的 API 密钥，或者不使用 API，这样就不会用到游戏自带的 API。你可以发邮件到 <a href="mailto:lwenyuan61@gmail.com">lwenyuan61@gmail.com</a>，附上你的 Steam 个人资料链接，索取与你的 Steam 账号相关的记录副本，或要求我们删除这些记录。删除记录后，剩余的游戏自带 API 额度也会一并清除。根据你所在地的法律，你可能还享有其他权利，包括向数据保护机构投诉的权利。</p>
+
+<h2>儿童</h2>
+<p>本游戏不面向 13 岁以下的儿童。如果你认为有儿童通过游戏提供了信息，请联系我们，我们会将其删除。</p>
+
+<h2>修改</h2>
+<p>本说明如有修改，我们会更新本页和页首的日期。</p>
+</main>
+</body>
+</html>
